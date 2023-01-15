@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            
             var type = Type();
             Console.Clear();
             switch (type)
@@ -98,7 +99,7 @@
 
          static void display(House H)
         {
-            File.AppendAllText("C:\\Users\\AsusIran\\Desktop\\MyTest.txt", H.DispayInfo());
+           
             Console.WriteLine("Saleable? "+ H.Saleable());
             Console.WriteLine(H.DispayInfo());
             Console.ReadKey();
